@@ -1,0 +1,337 @@
+{
+  "_meta": {
+    "status": "draft",
+    "language": "en — page copy is English; `zh` keeps the original draft for reference",
+    "note": "九幅：Vega 200 因 gate 的 edge>55 判为越界，已移出语料（图片留 artworks/_excluded/）",
+    "fields": {
+      "why": "why this painting is in the ten (2 sentences, specific, no mood words)",
+      "notes": "three 'look here' observations: a locatable feature + one thing to notice",
+      "fault": "where this translation fails — one sentence, with a measured number"
+    },
+    "count": 9
+  },
+  "01_georgia_o_keeffe_music_pink_and_blue_no_2": {
+    "why": "O'Keeffe gave this series musical titles before she had any theory of what colour sounds like. It opens the collection because she asked the question first.",
+    "notes": [
+      {
+        "label": "The aperture",
+        "text": "The blue at the centre is the only patch that stays saturated; everything else retreats toward white. 34% of the canvas sits below S 0.15."
+      },
+      {
+        "label": "The folds",
+        "text": "Pink to white is a continuous transition with no hard edge. The eye reads one moving surface, not a set of separate colours."
+      },
+      {
+        "label": "The margin",
+        "text": "The paint stops short of the canvas on all four sides. That strip of bare canvas is part of the composition, not padding."
+      }
+    ],
+    "fault": "The whole canvas becomes one average (L* 72.59 → B4, one loudness). But a third of it is nearly colourless and the rest is saturated pink — the average describes neither.",
+    "zh": {
+      "why": "O'Keeffe 给这一系列起的是音乐标题，那时她还没有任何关于「颜色听起来像什么」的理论。把这幅放在最前面，是因为她先提出了这个问题。",
+      "notes": [
+        {
+          "label": "The aperture",
+          "text": "中间那块蓝是唯一保持饱和的区域，其余部分都在向白里退。全画 34% 的面积饱和度低于 0.15。"
+        },
+        {
+          "label": "The folds",
+          "text": "粉到白的过渡是连续的，没有一条硬边，眼睛把它读成一个正在移动的面，而不是几种颜色。"
+        },
+        {
+          "label": "The margin",
+          "text": "颜料在四边都停住，露出画布的白。那道白不是留白，是构图的一部分。"
+        }
+      ],
+      "fault": "全画被压成一个平均值（L* 72.59 → B4、一个响度）。但三分之一几乎无色、其余是高饱和的粉——这个平均值两边都不描述。"
+    }
+  },
+  "02_helen_frankenthaler_jacob_s_ladder": {
+    "why": "Her staining method puts colour inside the canvas instead of on top of it: no brush thickness, so no highlight to read. Lightness is the only reliable axis here — which is the one the mapping leans on.",
+    "notes": [
+      {
+        "label": "Stain, not paint",
+        "text": "Thinned oil soaked into unprimed canvas. The colour has no thickness, so there is no direction of a brush stroke to follow."
+      },
+      {
+        "label": "Where it pooled",
+        "text": "Darkness comes from pigment collecting at the edge of the fabric. The lightness map is a record of drying, not of drawing."
+      },
+      {
+        "label": "The white",
+        "text": "Bare canvas is the brightest thing in the image, and it takes the highest note."
+      }
+    ],
+    "fault": "Saturation barely moves here (S 0.26, sd 0.12). R2 is supposed to turn purity into loudness, but on this canvas purity is almost constant — the volume never changes.",
+    "zh": {
+      "why": "她的染色法把颜色放进画布里，而不是铺在表面上：没有笔触厚度，也就没有可以读的高光。明度在这里是最可靠的轴，而这正是映射依赖的那条。",
+      "notes": [
+        {
+          "label": "Stain, not paint",
+          "text": "稀释的油渗进未上浆的画布，颜色没有厚度，所以画面上找不到一笔「扫过」的方向。"
+        },
+        {
+          "label": "Where it pooled",
+          "text": "深浅来自颜料在布边积住的地方。这张明度图本质上是一张干燥记录，不是一张素描。"
+        },
+        {
+          "label": "The white",
+          "text": "露出的画布是画面最亮的部分，它会在映射里拿到最高的音。"
+        }
+      ],
+      "fault": "这幅的饱和度几乎不变（S 0.26，标准差 0.12）。R2 本应把纯度变成响度，可这里的纯度是常数——整段音量不会动。"
+    }
+  },
+  "03_henri_matisse_la_desserte_rouge_the_dess": {
+    "why": "The red was painted over an earlier blue version; the flatness is a decision, not a manner. It is the cleanest case of one colour occupying a huge area.",
+    "notes": [
+      {
+        "label": "One red",
+        "text": "Tablecloth and wall are the same red, separated only by the blue arabesque. There is no lightness difference between object and background."
+      },
+      {
+        "label": "No shadow",
+        "text": "Matisse removed modelling. Depth comes from the curve of the vine, not from darkening."
+      },
+      {
+        "label": "Measured",
+        "text": "47% of the canvas falls within ±5 L* of the mean — nearly half the painting is a single note."
+      }
+    ],
+    "fault": "47% of this painting sits within ±5 L* of the mean, so a red table and a red wall sound identical. Honest, and useless.",
+    "zh": {
+      "why": "这块红是覆盖在蓝色版本上重画的，平整是一个决定，不是风格。它是「一个颜色、巨大面积」最干净的测试案例。",
+      "notes": [
+        {
+          "label": "One red",
+          "text": "桌布和墙是同一块红，只靠那条蓝色藤蔓分开。这意味着画面里没有「物体」和「背景」的明度差。"
+        },
+        {
+          "label": "No shadow",
+          "text": "Matisse 去掉了塑形，深度来自藤蔓的弯曲，不是来自压暗。"
+        },
+        {
+          "label": "Measured",
+          "text": "全画 47% 的像素落在平均明度 ±5 L* 之内——近一半画面是同一个音。"
+        }
+      ],
+      "fault": "47% 的画面集中在 ±5 L* 里，一张红桌子和一面红墙在这里听起来完全一样。这是诚实的，也是没用的。"
+    }
+  },
+  "04_mark_rothko_untitled_black_in_deep_ora": {
+    "why": "Two fields, no gradient, and the boundary is the entire subject. It pushes the averaging approach to its limit: only 6% of the canvas is anywhere near its own mean lightness.",
+    "notes": [
+      {
+        "label": "Two weathers",
+        "text": "A black rectangle sits on warm orange. The edge is soft and feathered; it was never drawn."
+      },
+      {
+        "label": "The edge",
+        "text": "Nothing happens inside either field. Everything happens where they meet."
+      },
+      {
+        "label": "No average",
+        "text": "Measured: 6% of pixels fall within ±5 L* of the mean, the second lowest of the ten."
+      }
+    ],
+    "fault": "Only 6% of the canvas is near its own average. For a painting made of two extremes, a mean-based mapping lands between them — where there is nothing.",
+    "zh": {
+      "why": "两个色域，没有渐变，边界就是全部内容。它把「平均值」这个做法逼到极限：全画只有 6% 靠近平均明度。",
+      "notes": [
+        {
+          "label": "Two weathers",
+          "text": "一块黑压在暖橙之上，交界是虚的、羽化的，从来没有被画成一条线。"
+        },
+        {
+          "label": "The edge",
+          "text": "两块内部什么都没发生，所有事情都发生在它们相接的地方。"
+        },
+        {
+          "label": "No average",
+          "text": "实测：只有 6% 的像素落在平均明度 ±5 L* 内，十幅里第二低。"
+        }
+      ],
+      "fault": "只有 6% 靠近平均值。对一个由两极构成的画面，均值映射只能落在中间——而中间什么也没有。"
+    }
+  },
+  "05_paul_gauguin_manao_tupapau_spirit_of_th": {
+    "why": "Colour carries the narrative here: the yellow-green glow is the spirit, and it is the only unnatural colour in the painting. Colour does the work the title would otherwise do.",
+    "notes": [
+      {
+        "label": "The phosphorescence",
+        "text": "The yellow-green on the bed sheet is where the spirit sits. It is the only colour that does not belong to the available light."
+      },
+      {
+        "label": "Wrong side",
+        "text": "The body is lit from the wrong side. The unease comes from that error, not from the expression."
+      },
+      {
+        "label": "Flat blues",
+        "text": "The background blues are flat and decorative — closer to pattern than to space."
+      }
+    ],
+    "fault": "Mean lightness 33.85 → E3, half a semitone from Matisse's red table. This painting is frightening and that one is domestic; the sound is nearly the same.",
+    "zh": {
+      "why": "颜色在这里承担了叙事：那道黄绿的光就是「幽灵」，是画面里唯一不自然的颜色。标题本来要靠文字做的事，被颜色做了。",
+      "notes": [
+        {
+          "label": "The phosphorescence",
+          "text": "床单上的黄绿是幽灵所在。它是全画唯一不属于自然光的颜色。"
+        },
+        {
+          "label": "Wrong side",
+          "text": "身体是从错误的一侧被照亮的，不安感来自这个错误，不是来自表情。"
+        },
+        {
+          "label": "Flat blues",
+          "text": "背景的蓝是平涂的装饰，接近图案而不是空间。"
+        }
+      ],
+      "fault": "平均明度 33.85 → E3，与 Matisse 的红餐桌只差 0.5 个半音。这幅是恐惧，那幅是家常，声音几乎分不开。"
+    }
+  },
+  "06_paul_gauguin_tahitian_landscape": {
+    "why": "High-key, evenly lit, almost no tonal drama — the opposite case to Manao tupapau. It shows what the mapping does with a calm painting.",
+    "notes": [
+      {
+        "label": "Even light",
+        "text": "No strong shadow anywhere; L* sd 11.9, the lowest of the ten."
+      },
+      {
+        "label": "Trees as pattern",
+        "text": "Foliage is drawn as repeated shapes rather than modelled volume."
+      },
+      {
+        "label": "Temperature split",
+        "text": "Warm ground, cool sky. The division is by temperature, not by value."
+      }
+    ],
+    "fault": "0.1 semitone and 6 Hz from Kandinsky's Yellow-Red-Blue. Two continents, thirty-four years apart, same note and same brightness.",
+    "zh": {
+      "why": "高明度、均匀受光、几乎没有明暗戏剧——与《Manao tupapau》正好相反。用它看映射在一幅「平静」的画上会做什么。",
+      "notes": [
+        {
+          "label": "Even light",
+          "text": "画面里没有强阴影，L* 标准差 11.9，十幅里最低。"
+        },
+        {
+          "label": "Trees as pattern",
+          "text": "树冠被画成重复的形状，不做体积，接近纹样。"
+        },
+        {
+          "label": "Temperature split",
+          "text": "暖的地、冷的天空——分区靠色温，不靠明度。"
+        }
+      ],
+      "fault": "与 Kandinsky《Yellow-Red-Blue》相差 0.1 个半音、6 Hz。两块大陆、相隔三十四年的画，落在同一个音、同一个亮度上。"
+    }
+  },
+  "08_wassily_kandinsky_impression_iii_concert": {
+    "why": "Painted after a Schoenberg concert: this is an attempt to render sound as colour. The premise of the mapping, run in reverse.",
+    "notes": [
+      {
+        "label": "The black mass",
+        "text": "The piano-shaped black at centre-left is the only object that survives the abstraction."
+      },
+      {
+        "label": "Widest range",
+        "text": "L* sd 28.4, the largest of the ten: this canvas has the most extreme darks and lights."
+      },
+      {
+        "label": "Yellow as brass",
+        "text": "Kandinsky assigned timbres to colours in his own writing; for him yellow was loud, brass."
+      }
+    ],
+    "fault": "The widest lightness range of the ten (sd 28.4) is compressed into a single anchor note. The painting that most wants to be heard gets the flattest translation.",
+    "zh": {
+      "why": "画于一场勋伯格音乐会之后：这幅画是想把声音画成颜色。映射的前提，在这里被反着跑了一遍。",
+      "notes": [
+        {
+          "label": "The black mass",
+          "text": "中偏左那块钢琴形状的黑，是抽象之后唯一还认得出的物体。"
+        },
+        {
+          "label": "Widest range",
+          "text": "L* 标准差 28.4，十幅里最大：这张画有最极端的黑和最极端的光。"
+        },
+        {
+          "label": "Yellow as brass",
+          "text": "Kandinsky 自己给颜色配过音色，黄色在他那里是响的、是铜管。"
+        }
+      ],
+      "fault": "十幅里明度跨度最大的一幅（标准差 28.4），被压成一个锚点音。最想被听见的画，得到了最平的翻译。"
+    }
+  },
+  "09_wassily_kandinsky_yellow_red_blue_gelb_rot_b": {
+    "why": "Three colour fields, three temperatures, one Bauhaus grid — the cleanest case for 'each colour should be its own voice'.",
+    "notes": [
+      {
+        "label": "Three fields",
+        "text": "Yellow upper left, red on the diagonal, blue circle lower right. Each is a different temperature and none gives way."
+      },
+      {
+        "label": "Explicit geometry",
+        "text": "Unlike the 1911 painting, the geometry is stated here; nothing is dissolved."
+      },
+      {
+        "label": "Measured collision",
+        "text": "E4 / 2362 Hz — 0.1 semitone from Tahitian Landscape."
+      }
+    ],
+    "fault": "Yellow and blue are the two poles of this painting, and they map to almost the same pitch: one anchor, one loudness, one brightness. The opposition inside the painting disappears in the mix.",
+    "zh": {
+      "why": "三块色域、三种温度、一个包豪斯式的几何框架——「每种颜色应该是一条独立声部」最干净的案例。",
+      "notes": [
+        {
+          "label": "Three fields",
+          "text": "左上黄、对角红、右下蓝圆，各自是不同的温度，互不相让。"
+        },
+        {
+          "label": "Explicit geometry",
+          "text": "与 1911 年那幅不同，这里几何是明写的，没有任何东西被溶解。"
+        },
+        {
+          "label": "Measured collision",
+          "text": "E4 / 2362 Hz，与《Tahitian Landscape》相差 0.1 个半音。"
+        }
+      ],
+      "fault": "黄和蓝是这幅画的两极，却映射到几乎同一个音高：一个锚点、一个响度、一个亮度。画里的对立在混音里消失了。"
+    }
+  },
+  "10_zao_wou_ki_20_03_60": {
+    "why": "The darkest of the ten (L* 30.14): calligraphic marks inside a nearly black field. It tests whether the mapping can handle near-darkness at all.",
+    "notes": [
+      {
+        "label": "Black is not empty",
+        "text": "The ground has structure, but it sits between L* 12 and 18, where most displays cannot resolve the layers."
+      },
+      {
+        "label": "The red trace",
+        "text": "A single warm stroke crosses the upper third — the only saturated event in the painting."
+      },
+      {
+        "label": "Calligraphy without characters",
+        "text": "The marks are movements of a brush, not signs."
+      }
+    ],
+    "fault": "L* 30.14 is the darkest of the ten, so the anchor falls to D3 and the whole piece is quiet. The red stroke — the one thing you are meant to see — is averaged into the black.",
+    "zh": {
+      "why": "十幅里最暗的一幅（L* 30.14），近乎全黑的场里是书法性的笔痕。用它测试映射到底处理不处理得了「接近黑暗」。",
+      "notes": [
+        {
+          "label": "Black is not empty",
+          "text": "底色里有结构，但落在 L* 12–18 之间，多数显示器在这个区间分辨不出层次。"
+        },
+        {
+          "label": "The red trace",
+          "text": "一道暖色笔痕横过上三分之一，是全画唯一饱和的事件。"
+        },
+        {
+          "label": "Calligraphy without characters",
+          "text": "那些笔痕是动作，不是字。"
+        }
+      ],
+      "fault": "L* 30.14 是十幅里最暗的，锚点落在 D3，整首都很轻。那道红痕——唯一该被看见的东西——被平均进黑色里。"
+    }
+  }
+}

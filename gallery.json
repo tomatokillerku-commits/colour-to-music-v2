@@ -1,0 +1,101 @@
+[
+  {
+    "id": "01_georgia_o_keeffe_music_pink_and_blue_no_2",
+    "file": "Georgia O'Keeffe-Music, Pink and Blue No. 2.jpg",
+    "artist": "Georgia O'Keeffe",
+    "title": "Music, Pink and Blue No. 2",
+    "year": "1918",
+    "movement": "American Modernism",
+    "intro": "",
+    "medium": "Oil on canvas",
+    "dimensions": "88.9 x 76 cm"
+  },
+  {
+    "id": "02_helen_frankenthaler_jacob_s_ladder",
+    "file": "Helen Frankenthaler-Jacob’s Ladder.jpg",
+    "artist": "Helen Frankenthaler",
+    "title": "Jacob's Ladder",
+    "year": "1957",
+    "movement": "Color Field Painting",
+    "intro": "",
+    "medium": "Oil on canvas",
+    "dimensions": "287.9 x 177.5 cm"
+  },
+  {
+    "id": "03_henri_matisse_la_desserte_rouge_the_dess",
+    "file": "Henri Matisse-La Desserte rouge.jpg",
+    "artist": "Henri Matisse",
+    "title": "La Desserte rouge (The Dessert: Harmony in Red)",
+    "year": "1908",
+    "movement": "Fauvism",
+    "intro": "",
+    "medium": "Oil on canvas",
+    "dimensions": "180.5 x 221 cm"
+  },
+  {
+    "id": "04_mark_rothko_untitled_black_in_deep_ora",
+    "file": "Mark Rothko-Untitled (Black in Deep Orange).jpeg",
+    "artist": "Mark Rothko",
+    "title": "Untitled (Black in Deep Orange)",
+    "year": "1957",
+    "movement": "Color Field Painting",
+    "intro": "",
+    "medium": "Oil on canvas",
+    "dimensions": "176.2 x 136.5 cm"
+  },
+  {
+    "id": "05_paul_gauguin_manao_tupapau_spirit_of_th",
+    "file": "Paul Gauguin-Manao tupapau.jpeg",
+    "artist": "Paul Gauguin",
+    "title": "Manao tupapau (Spirit of the Dead Watching)",
+    "year": "1892",
+    "movement": "Post-Impressionism",
+    "intro": "",
+    "medium": "Oil on jute mounted on canvas",
+    "dimensions": "73.02 x 92.39 cm"
+  },
+  {
+    "id": "06_paul_gauguin_tahitian_landscape",
+    "file": "Paul Gauguin-Tahitian Landscape.jpg",
+    "artist": "Paul Gauguin",
+    "title": "Tahitian Landscape",
+    "year": "1891",
+    "movement": "Post-Impressionism",
+    "intro": "",
+    "medium": "Oil on canvas",
+    "dimensions": "67.95 x 92.39 cm"
+  },
+  {
+    "id": "08_wassily_kandinsky_impression_iii_concert",
+    "file": "Wassily Kandinsky-Impression_III_(Concert).jpg",
+    "artist": "Wassily Kandinsky",
+    "title": "Impression III (Concert)",
+    "year": "1911",
+    "movement": "Abstract Expressionism",
+    "intro": "",
+    "medium": "Oil on canvas",
+    "dimensions": "78.4 x 100.6 cm"
+  },
+  {
+    "id": "09_wassily_kandinsky_yellow_red_blue_gelb_rot_b",
+    "file": "Wassily Kandinsky-Yellow-Red-Blue.jpg",
+    "artist": "Wassily Kandinsky",
+    "title": "Yellow-Red-Blue (Gelb-Rot-Blau)",
+    "year": "1925",
+    "movement": "Abstract Expressionism",
+    "intro": "",
+    "medium": "Oil on canvas",
+    "dimensions": "128 x 201.5 cm"
+  },
+  {
+    "id": "10_zao_wou_ki_20_03_60",
+    "file": "赵无极-20-03-60.jpeg",
+    "artist": "Zao Wou-Ki",
+    "title": "20.03.60",
+    "year": "1960",
+    "movement": "Lyrical Abstraction",
+    "intro": "",
+    "medium": "Oil on canvas",
+    "dimensions": "130 x 162 cm"
+  }
+]

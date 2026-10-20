@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+  background-color: #07080e;
+}
+
+@keyframes audioWave {
+  from { height: 4px; }
+  to   { height: 24px; }
+}
+
+@keyframes nowPlayingPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.45; transform: scale(0.7); }
+}
+
+@keyframes bgFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes zoomIn {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes scrollDrop {
+  0%, 100% { transform: translateY(0); opacity: 0.4; }
+  50%       { transform: translateY(10px); opacity: 1; }
+}
+
+@keyframes loadingColorShift {
+  0%   { background-color: #1a2440; }
+  14%  { background-color: #2c1438; }
+  28%  { background-color: #0e2830; }
+  42%  { background-color: #301e06; }
+  57%  { background-color: #0e2c14; }
+  71%  { background-color: #2c0e34; }
+  85%  { background-color: #0e2032; }
+  100% { background-color: #1a2440; }
+}
+
+@keyframes loadingFadeMsg {
+  0%,100% { opacity: 0; }
+  15%,85% { opacity: 1; }
+}
+
+@keyframes viewerEnter {
+  from { opacity: 0; transform: scale(0.94); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.07) transparent;
+}
+*::-webkit-scrollbar {
+  width: 4px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.07);
+  border-radius: 2px;
+}
+
+/* ── LAB / VISITOR 双档：观众档隐藏技术标识与数值 ── */
+[data-mode="visitor"] .lab-only {
+  display: none !important;
+}
+
+/* 术语浮层里的术语本身可点 */
+.term-dotted {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.36);
+  cursor: help;
+}
+
+/* 只在观众档出现的替代表述 */
+.visitor-only { display: none !important; }
+[data-mode="visitor"] .visitor-only { display: block !important; }
+
+/* ── 演示模式: 去壳、全宽、放大 ── */
+[data-present="1"] .present-hide { display: none !important; }
+[data-present="1"] .present-zoom {
+  width: 89% !important;
+  max-width: 1300px !important;
+  zoom: 1.12;
+  padding-left: 5vw !important;
+  padding-right: 5vw !important;
+}
+
+/* 演示模式：正文限制行长（投影上 1300px 的行宽读不动） */
+[data-present="1"] .present-zoom p { max-width: 64ch; }
+
+/* ── 展陈站点：一次只显示一站 ── */
+.panel-stations [data-station] { display: none; }
+[data-active-station="0"] .panel-stations [data-station="0"],
+[data-active-station="1"] .panel-stations [data-station="1"],
+[data-active-station="2"] .panel-stations [data-station="2"],
+[data-active-station="3"] .panel-stations [data-station="3"],
+[data-active-station="lab"] .panel-stations [data-station="lab"] { display: block; }
+
+.panel-stations { padding-bottom: 104px !important; }
+
+/* 进站转场 */
+.panel-stations [data-station] {
+  animation: stationIn 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes stationIn {
+  from { opacity: 0; transform: translateY(22px) scale(0.994); filter: blur(3px); }
+  to   { opacity: 1; transform: none; filter: blur(0); }
+}
+
+/* 站内元素错落 */
+.panel-stations [data-station] > * { animation: fadeUp 0.5s ease both; }
+.panel-stations [data-station] > *:nth-child(1) { animation-delay: 0.04s; }
+.panel-stations [data-station] > *:nth-child(2) { animation-delay: 0.09s; }
+.panel-stations [data-station] > *:nth-child(3) { animation-delay: 0.14s; }
+.panel-stations [data-station] > *:nth-child(4) { animation-delay: 0.19s; }
+.panel-stations [data-station] > *:nth-child(5) { animation-delay: 0.24s; }
+.panel-stations [data-station] > *:nth-child(6) { animation-delay: 0.29s; }
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(9px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes markerPop {
+  from { opacity: 0; transform: translate(-50%, -50%) scale(0.35); }
+  to   { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+@keyframes youPulse {
+  0%, 100% { box-shadow: 0 0 6px rgba(143, 208, 232, 0.3); }
+  50%      { box-shadow: 0 0 18px rgba(143, 208, 232, 0.85); }
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* 站点栏在窄屏不要压到内容 */
+@media (max-width: 620px) {
+  .panel-stations { padding-bottom: 120px !important; }
+}
+
+
+@keyframes fadeUpDeck {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,238 @@
+{
+  "Mark Rothko-Untitled (Black in Deep Orange).jpeg": {
+    "file": "Mark Rothko-Untitled (Black in Deep Orange).jpeg",
+    "artist": "Mark Rothko",
+    "title": "Untitled (Black in Deep Orange)",
+    "mood": "fiery vitality against solemn weight",
+    "music_prompt": "Style: Post-war avant-garde minimalist drone, modal / ambiguous, 96 BPM, anchor A#3, mid register, muted trumpet, violin, brightness near 1991 Hz, about -22.2 dBFS. Duration: 60 seconds.\n\nA static, Feldman-inspired sound field centered on an unyielding A#3 pedal drone, pairing unvibrato violin playing sul tasto with an ultra-soft, straight-muted trumpet. The texture maintains an unwavering pianissimo dynamic devoid of crescendos, rhythmic pulse, or melody, layering close minor second cluster suspensions that generate subtle acoustic beating. Sparse, sustained tones and isolated breath-like attacks float in wide reverberance without harmonic progression, holding an unresolving, motionless tension between radiant warmth and heavy void across the entire duration.",
+    "source": "gemini",
+    "rules_version": "v2",
+    "generated_at": "2026-10-19 03:59:50",
+    "rule_snapshot": {
+      "mean_L": 46.09,
+      "mean_S": 0.652,
+      "pitch_anchor_midi": 58.1,
+      "pitch_note": "A#3",
+      "loudness_target_db": -22.2,
+      "brightness_target_hz": 1991,
+      "bpm": 96,
+      "mode": "modal / ambiguous",
+      "instrument_candidates": [
+        "trumpet",
+        "violin"
+      ]
+    }
+  },
+  "Georgia O'Keeffe-Music, Pink and Blue No. 2.jpg": {
+    "file": "Georgia O'Keeffe-Music, Pink and Blue No. 2.jpg",
+    "artist": "Georgia O'Keeffe",
+    "title": "Music, Pink and Blue No. 2",
+    "mood": "luminous, serene, and sensuously uplifting",
+    "music_prompt": "Early 20th-century American lyrical chamber music, Major key, 74 BPM, pitch anchor B4, target loudness -25.3 dBFS RMS, spectral brightness near 2733 Hz, solo clarinet, alto flute, harp, chamber strings, instrumental only. Duration: 60 seconds.\n\nBeginning *Andante espressivo*, transparent quartal harmonies and open fifths in extended major ninth chords create a serene, luminous harmonic landscape. Lyrical clarinet and alto flute counterpoint weaves above gently arpeggiated harp figures and sustained high string pads, swelling smoothly from *pianissimo* to *mezzoforte* in a slow, organic breathing pulse. A subtle, asymmetric 5/4 metre with delicate *rubato* guides a 60-second developmental arc, expressing sensuous warmth and quiet awakening through seamless *legato* transitions without harsh dissonance.",
+    "source": "gemini",
+    "rules_version": "v2",
+    "generated_at": "2026-10-19 03:58:52",
+    "rule_snapshot": {
+      "mean_L": 72.59,
+      "mean_S": 0.391,
+      "pitch_anchor_midi": 70.8,
+      "pitch_note": "B4",
+      "loudness_target_db": -25.3,
+      "brightness_target_hz": 2733,
+      "bpm": 74,
+      "mode": "major key",
+      "instrument_candidates": [
+        "clarinet"
+      ]
+    }
+  },
+  "Helen Frankenthaler-Jacob’s Ladder.jpg": {
+    "file": "Helen Frankenthaler-Jacob’s Ladder.jpg",
+    "artist": "Helen Frankenthaler",
+    "title": "Jacob's Ladder",
+    "mood": "dreamlike dynamism with subtle tension",
+    "music_prompt": "Style: Post-war avant-garde minimalist drone, Major key suspended harmony, 91 BPM, pitch anchor G4 (high register), muted violin and soft muted trumpet, target loudness -26.9 dBFS, spectral centroid near 2510 Hz. Duration: 60 seconds.\n\nIn the quiet, indeterminate spirit of Morton Feldman, muted violin and soft muted trumpet maintain static, breathless sustained tones centered near G4 at a constant pianississimo dynamic level without any crescendos. The harmonic language relies on suspended major key color and soft cluster dissonances that drift imperceptibly through wide spatial reverberation, entirely devoid of melody or tonal chord progressions. Free of rhythmic drive, pulse, or percussion, sparse pointillistic attacks emerge unpredictably and decay gently into airy silence across a completely non-narrative, static duration.",
+    "source": "gemini",
+    "rules_version": "v2",
+    "generated_at": "2026-10-19 03:59:08",
+    "rule_snapshot": {
+      "mean_L": 64.66,
+      "mean_S": 0.262,
+      "pitch_anchor_midi": 67.0,
+      "pitch_note": "G4",
+      "loudness_target_db": -26.9,
+      "brightness_target_hz": 2510,
+      "bpm": 91,
+      "mode": "major key",
+      "instrument_candidates": [
+        "trumpet",
+        "violin"
+      ]
+    }
+  },
+  "Henri Matisse-La Desserte rouge.jpg": {
+    "file": "Henri Matisse-La Desserte rouge.jpg",
+    "artist": "Henri Matisse",
+    "title": "La Desserte rouge (The Dessert: Harmony in Red)",
+    "mood": "vibrant domestic warmth and contemplative harmony",
+    "music_prompt": "Style: Early Modern French orchestral, E major, 88 BPM, pitch anchor E3, mid register, spectral centroid near 1619 Hz, target loudness about -21.7 dBFS RMS. Instrumentation: violin, trumpet, French horn, flute, oboe, harp, cello.\nDuration: 60 seconds. Instrumental only.\n\nRich, extended major 9th chords anchored at E3 establish an enveloping, warm harmonic foundation at a steady mezzo-forte. Lyrical solo violin and French horn introduce winding, legato arabesque melodies, punctuated by crisp woodwind counterpoint and bright trumpet accents grouped in bold, primary-color timbral blocks. Light harp arpeggios generate a dance-like rhythmic drive, guiding the texture through subtle modal color shifts and mild suspended dissonance before concluding in a luminous, tranquil E major cadence.",
+    "source": "gemini",
+    "rules_version": "v2",
+    "generated_at": "2026-10-19 03:59:23",
+    "rule_snapshot": {
+      "mean_L": 32.81,
+      "mean_S": 0.689,
+      "pitch_anchor_midi": 51.7,
+      "pitch_note": "E3",
+      "loudness_target_db": -21.7,
+      "brightness_target_hz": 1619,
+      "bpm": 88,
+      "mode": "major key",
+      "instrument_candidates": [
+        "trumpet",
+        "violin"
+      ]
+    }
+  },
+  "Paul Gauguin-Manao tupapau.jpeg": {
+    "file": "Paul Gauguin-Manao tupapau.jpeg",
+    "artist": "Paul Gauguin",
+    "title": "Manao tupapau (Spirit of the Dead Watching)",
+    "mood": "haunting vulnerability and nocturnal dread",
+    "music_prompt": "Style: Late Romantic / Impressionist orchestral, E minor key, 82 BPM, pitch anchor E3 (mid register), target loudness -25.0 dBFS RMS, spectral centroid brightness near 1648 Hz, instrumentation: low bass clarinet, cello, bassoon, harp, muted violins, instrumental only. Duration: 60 seconds.\n\nBeginning *pianissimo* with a slow *rubato* feel, low sustained bass clarinet and cello drones on E3 establish an eerie, unresolved whole-tone harmonic foundation of nocturnal dread. High-pitched muted violins perform flickering *sul ponticello* tremolos and erratic modal motifs overhead, embodying an anxious tension and psychological isolation. A sudden *subito forte* dynamic swell midway introduces jarring chromatic cluster chords in the bassoon and low strings, which quickly subside back into a hushed, suspended *pianississimo* lingering terror that fades without harmonic resolution.",
+    "source": "gemini",
+    "rules_version": "v2",
+    "generated_at": "2026-10-19 04:00:11",
+    "rule_snapshot": {
+      "mean_L": 33.85,
+      "mean_S": 0.419,
+      "pitch_anchor_midi": 52.2,
+      "pitch_note": "E3",
+      "loudness_target_db": -25.0,
+      "brightness_target_hz": 1648,
+      "bpm": 82,
+      "mode": "minor key",
+      "instrument_candidates": [
+        "clarinet"
+      ]
+    }
+  },
+  "Paul Gauguin-Tahitian Landscape.jpg": {
+    "file": "Paul Gauguin-Tahitian Landscape.jpg",
+    "artist": "Paul Gauguin",
+    "title": "Tahitian Landscape",
+    "mood": "languid warmth and quiet vitality",
+    "music_prompt": "Duration: 60 seconds.\nStyle: Late Romantic Impressionist Orchestral, E major, 74 BPM, pitch anchor E4 (mid register), major key, target loudness -24.3 dBFS RMS, spectral centroid ~2356 Hz brightness, solo violin, soft muted trumpet, English horn, flute, cello, harp.\n\nOpening piano with an Andante piacevole movement, lush E major add9 sustained chords in the cellos and gentle harp arpeggios support a languid, pentatonic melody shared between a lead solo violin and a softly muted trumpet. The harmonic language utilizes Impressionist modal color, consonant open fifths, and subtle whole-tone inflections, played with smooth legato articulation and natural rubato phrasing to convey sun-drenched tropical warmth. A delicate crescendo to mezzo-piano introduces rich woodwind counterpoint, before the texture gradually dissipates in a serene morendo cadence, settling on a tranquil E major dyad.",
+    "source": "gemini",
+    "rules_version": "v2",
+    "generated_at": "2026-10-19 04:00:29",
+    "rule_snapshot": {
+      "mean_L": 59.16,
+      "mean_S": 0.478,
+      "pitch_anchor_midi": 64.4,
+      "pitch_note": "E4",
+      "loudness_target_db": -24.3,
+      "brightness_target_hz": 2356,
+      "bpm": 74,
+      "mode": "major key",
+      "instrument_candidates": [
+        "trumpet",
+        "violin"
+      ]
+    }
+  },
+  "Victor Vasarely - Vega 200 .jpeg": {
+    "file": "Victor Vasarely - Vega 200 .jpeg",
+    "artist": "Victor Vasarely",
+    "title": "Vega 200",
+    "mood": "hypnotic, vibrant, and optically charged",
+    "music_prompt": "Duration: 60 seconds\nStyle: Minimalist process music and analog electronic, F major key with sharp polytonal dissonance, 110 BPM, mid register (anchor F3), target loudness about -21.7 dBFS RMS, timbre brightness near 1694 Hz spectral centroid, instrumentation: staccato clarinets, analog modular synthesizer pulses, mallet percussion.\n\nRigorously mechanical and executed strictly senza rubato, the piece opens with interlocking, rapid staccato clarinet ostinatos centered around F3, pitted against biting modular synthesizer pulses that generate vibrating polytonal cluster tension. Across the 60 seconds, rhythmic lines undergo gradual phase shifting and additive metric expansion, translating static geometric repetition into an intense optical flicker. Dynamics build via an unrelenting terraced crescendo, layering dense harmonic friction and microtonal overtones without any melodic departure, terminating abruptly at peak sonic saturation on an unresolved, razor-sharp dissonant pulse.",
+    "source": "gemini",
+    "rules_version": "v2",
+    "generated_at": "2026-10-19 04:00:55",
+    "rule_snapshot": {
+      "mean_L": 35.51,
+      "mean_S": 0.695,
+      "pitch_anchor_midi": 53.0,
+      "pitch_note": "F3",
+      "loudness_target_db": -21.7,
+      "brightness_target_hz": 1694,
+      "bpm": 110,
+      "mode": "major key",
+      "instrument_candidates": [
+        "clarinet"
+      ]
+    }
+  },
+  "Wassily Kandinsky-Impression_III_(Concert).jpg": {
+    "file": "Wassily Kandinsky-Impression_III_(Concert).jpg",
+    "artist": "Wassily Kandinsky",
+    "title": "Impression III (Concert)",
+    "mood": "radiant exhilaration punctuated by drama",
+    "music_prompt": "Duration: 60 seconds\nStyle: Second Viennese School atonal expressionism, 107 BPM, anchor D4, major key, mid register, about -21.7 dBFS, brightness near 2224 Hz, solo trumpet and chamber brass with percussive piano.\n\nAllegro con fuoco; an erratic, non-metric pulse drives piercing trumpet fanfares around D4 through fractured Klangfarbenmelodie textures, avoiding any steady beat or romantic melodic themes. The harmonic language pits radiant, fragmentary major triads directly against dense polytonal clusters and biting tritones, generating sharp chromatic tension and intense dramatic friction. Piercing bell-up accents and frantic flutter-tongued brass motifs collide with sudden cavernous pauses and subterranean low-register crashes. Dynamics lurch unpredictably from muted piano murmurs to explosive subito fortissimo eruptions, driving the sixty-second arc through violent registral leaps toward an unresolved, dissonant sonic explosion.",
+    "source": "gemini",
+    "rules_version": "v2",
+    "generated_at": "2026-10-19 04:01:24",
+    "rule_snapshot": {
+      "mean_L": 54.44,
+      "mean_S": 0.688,
+      "pitch_anchor_midi": 62.1,
+      "pitch_note": "D4",
+      "loudness_target_db": -21.7,
+      "brightness_target_hz": 2224,
+      "bpm": 107,
+      "mode": "major key",
+      "instrument_candidates": [
+        "trumpet"
+      ]
+    }
+  },
+  "Wassily Kandinsky-Yellow-Red-Blue.jpg": {
+    "file": "Wassily Kandinsky-Yellow-Red-Blue.jpg",
+    "artist": "Wassily Kandinsky",
+    "title": "Yellow-Red-Blue (Gelb-Rot-Blau)",
+    "mood": "vibrant dynamic between light and shadow",
+    "music_prompt": "Duration: 60 seconds. Instrumental only.\nStyle: Neoclassical modernist chamber, 102 BPM, major key, pitch anchor E4, mid register, loudness about -25.1 dBFS, brightness near 2362 Hz, instrumentation featuring violin, trumpet, and chamber ensemble.\nMusical Direction:\nAllegro moderato opens with dry, mechanistic staccato violin ostinati in a bright major mode, colliding abruptly against biting, syncopated counter-motifs from a piercing muted trumpet. The linear texture develops through rigid bitonal counterpoint, generating sharp unresolved tension as buoyant geometric lines clash against dark, chromatic lower-register friction without any romantic rubato or ambient washes. Interlocking, jazz-inflected rhythms and pungent brass accents drive a compact development arc, culminating in an abrupt, striking fortissimo cluster and a starkly unresolved final cadence.",
+    "source": "gemini",
+    "rules_version": "v2",
+    "generated_at": "2026-10-19 04:01:56",
+    "rule_snapshot": {
+      "mean_L": 59.36,
+      "mean_S": 0.412,
+      "pitch_anchor_midi": 64.5,
+      "pitch_note": "E4",
+      "loudness_target_db": -25.1,
+      "brightness_target_hz": 2362,
+      "bpm": 102,
+      "mode": "major key",
+      "instrument_candidates": [
+        "trumpet",
+        "violin"
+      ]
+    }
+  },
+  "赵无极-20-03-60.jpeg": {
+    "file": "赵无极-20-03-60.jpeg",
+    "artist": "Zao Wou-Ki",
+    "title": "20.03.60",
+    "mood": "turbulent, incandescent, and broodingly intense",
+    "music_prompt": "Style: Post-war European avant-garde, minor key, 112 BPM, pitch anchor D3, mid register, violin, trumpet, orchestral strings, target loudness about -24.0 dBFS, brightness near 1544 Hz. Duration: 60 seconds. Instrumental only.\n\nFree calligraphic gestures open with rapid, sweeping violin lines played sul ponticello and flutter-tongued trumpet incantations, establishing an incandescent, turbulent atmosphere. The texture surges between brooding, dark cluster chords anchored around D3 and sudden subito forte dissonances, deploying controlled aleatoric passages and harsh tritones without settling into a steady groove. Aggressive col legno string strikes and jagged, piercing trumpet cries collide across wide dynamic extremes, concluding abruptly in an unresolved, resonance-driven suspension of primal sonic friction.",
+    "source": "gemini",
+    "rules_version": "v2",
+    "generated_at": "2026-10-19 04:02:22",
+    "rule_snapshot": {
+      "mean_L": 30.14,
+      "mean_S": 0.501,
+      "pitch_anchor_midi": 50.5,
+      "pitch_note": "D3",
+      "loudness_target_db": -24.0,
+      "brightness_target_hz": 1544,
+      "bpm": 112,
+      "mode": "minor key",
+      "instrument_candidates": [
+        "trumpet",
+        "violin"
+      ]
+    }
+  }
+}

@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1180" width="1400" height="1180" font-family="Inter, -apple-system, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <!-- 箭头 -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c9a84c"/>
+    </marker>
+    <marker id="arrowDim" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6070"/>
+    </marker>
+
+    <!-- 发光滤镜 -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- 渐变: 通道A 冷色 -->
+    <linearGradient id="gradA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16283d"/>
+      <stop offset="100%" stop-color="#0f1a28"/>
+    </linearGradient>
+    <!-- 渐变: 通道B 暖色 -->
+    <linearGradient id="gradB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e2410"/>
+      <stop offset="100%" stop-color="#1c1608"/>
+    </linearGradient>
+    <!-- 渐变: 融合 -->
+    <linearGradient id="gradF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1a2c"/>
+      <stop offset="100%" stop-color="#14111d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ═══ 背景 ═══ -->
+  <rect width="1400" height="1180" fill="#07080e"/>
+  <rect x="0" y="0" width="1400" height="4" fill="#c9a84c" opacity="0.5"/>
+
+  <!-- ═══ 标题 ═══ -->
+  <text x="60" y="62" fill="#f4ede0" font-size="34" font-weight="600" letter-spacing="0.5">颜色 → 音乐  双通道生成系统</text>
+  <text x="60" y="92" fill="#8a8f9e" font-size="15" letter-spacing="1.2">Color → Music · A Dual-Channel Generative System</text>
+  <text x="1340" y="62" text-anchor="end" fill="#c9a84c" font-size="12" letter-spacing="2.5">SYSTEM ARCHITECTURE</text>
+
+  <!-- ══════════ ① 输入层 ══════════ -->
+  <g>
+    <rect x="60" y="128" width="1280" height="76" rx="6" fill="#101320" stroke="#c9a84c" stroke-opacity="0.28"/>
+    <text x="80" y="158" fill="#c9a84c" font-size="11" letter-spacing="2.5">① INPUT  输入层</text>
+    <text x="80" y="186" fill="#dfe3ee" font-size="17">画作输入</text>
+    <text x="164" y="186" fill="#7a8090" font-size="13">10 幅预置典藏  /  用户上传（拖拽或点击）</text>
+    <text x="1320" y="170" text-anchor="end" fill="#7fb3d5" font-size="12">预置走缓存</text>
+    <text x="1320" y="190" text-anchor="end" fill="#7a8090" font-size="12">上传才实时分析</text>
+  </g>
+
+  <!-- 分叉 -->
+  <path d="M 360 204 L 360 238 L 360 252" stroke="#5a6070" stroke-width="1.5" fill="none" marker-end="url(#arrowDim)"/>
+  <path d="M 1040 204 L 1040 238 L 1040 252" stroke="#5a6070" stroke-width="1.5" fill="none" marker-end="url(#arrowDim)"/>
+
+  <!-- ══════════ ② 双通道 ══════════ -->
+  <text x="60" y="240" fill="#c9a84c" font-size="11" letter-spacing="2.5">② DUAL-CHANNEL ANALYSIS  双通道并行分析（核心创新）</text>
+
+  <!-- ── 通道 A ── -->
+  <g>
+    <rect x="60" y="258" width="600" height="268" rx="8" fill="url(#gradA)" stroke="#7fb3d5" stroke-opacity="0.42"/>
+    <rect x="60" y="258" width="600" height="3" rx="1.5" fill="#7fb3d5"/>
+
+    <text x="88" y="292" fill="#7fb3d5" font-size="13" font-weight="600" letter-spacing="1">通道 A · 客观测量</text>
+    <text x="88" y="312" fill="#5f7d94" font-size="11.5" letter-spacing="0.4">Objective Measurement — Python 算法</text>
+
+    <rect x="470" y="278" width="164" height="26" rx="13" fill="#7fb3d5" fill-opacity="0.14" stroke="#7fb3d5" stroke-opacity="0.35"/>
+    <text x="552" y="295" text-anchor="middle" fill="#9ec5de" font-size="11.5">0.36 秒 · 零 API 消耗</text>
+
+    <!-- 指标 -->
+    <g fill="#c3cbd9" font-size="13.5">
+      <text x="88" y="352">▸ 主色提取 Dominant Color</text>
+      <text x="88" y="378">▸ 色相分布 Hue Distribution</text>
+      <text x="88" y="404">▸ 饱和度 / 明度 Saturation / Value</text>
+      <text x="88" y="430">▸ 冷暖比 Warm-Cold Ratio W</text>
+      <text x="88" y="456">▸ 红绿对比张力 RGI</text>
+    </g>
+    <g fill="#6b7280" font-size="11.5">
+      <text x="88" y="482">HSV / Lab 色彩空间 · 像素级统计</text>
+    </g>
+
+    <rect x="88" y="494" width="544" height="1" fill="#7fb3d5" fill-opacity="0.18"/>
+    <text x="88" y="514" fill="#8f97a6" font-size="11.5">可量化 · 可复现 · 学术可验证</text>
+  </g>
+
+  <!-- ── 通道 B ── -->
+  <g>
+    <rect x="740" y="258" width="600" height="268" rx="8" fill="url(#gradB)" stroke="#c9a84c" stroke-opacity="0.5"/>
+    <rect x="740" y="258" width="600" height="3" rx="1.5" fill="#c9a84c"/>
+
+    <text x="768" y="292" fill="#c9a84c" font-size="13" font-weight="600" letter-spacing="1">通道 B · AI 语义理解</text>
+    <text x="768" y="312" fill="#967c34" font-size="11.5" letter-spacing="0.4">Semantic Understanding — Gemini Vision</text>
+
+    <rect x="1150" y="278" width="164" height="26" rx="13" fill="#c9a84c" fill-opacity="0.14" stroke="#c9a84c" stroke-opacity="0.38"/>
+    <text x="1232" y="295" text-anchor="middle" fill="#d4b45e" font-size="11.5">≈ 20 秒 · 1 次 API 调用</text>
+
+    <g fill="#c3cbd9" font-size="13.5">
+      <text x="768" y="352">▸ 氛围概括 Mood</text>
+      <text x="768" y="378">▸ 情感坐标 Valence / Arousal</text>
+      <text x="768" y="404">▸ 画面张力 Tension</text>
+      <text x="768" y="430">▸ 色彩关系叙事 Narrative（80-150 词）</text>
+      <text x="768" y="456">▸ 音乐建议 Musical Hint</text>
+    </g>
+    <g fill="#6b7280" font-size="11.5">
+      <text x="768" y="482">视觉模型真正「看见」画面</text>
+    </g>
+
+    <rect x="768" y="494" width="544" height="1" fill="#c9a84c" fill-opacity="0.2"/>
+    <text x="768" y="514" fill="#8f97a6" font-size="11.5">理解色彩并置产生的情感</text>
+  </g>
+
+  <!-- 汇合箭头 -->
+  <path d="M 360 526 L 360 566" stroke="#c9a84c" stroke-width="1.5" fill="none" marker-end="url(#arrowDim)"/>
+  <path d="M 1040 526 L 1040 566" stroke="#c9a84c" stroke-width="1.5" fill="none" marker-end="url(#arrowDim)"/>
+  <path d="M 360 566 L 1040 566" stroke="#c9a84c" stroke-opacity="0.3" stroke-width="1.5" fill="none"/>
+  <path d="M 700 566 L 700 590" stroke="#c9a84c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- ══════════ ③ 融合层 ══════════ -->
+  <g>
+    <rect x="340" y="590" width="720" height="112" rx="8" fill="url(#gradF)" stroke="#a78bfa" stroke-opacity="0.45"/>
+    <rect x="340" y="590" width="720" height="3" rx="1.5" fill="#a78bfa"/>
+    <text x="368" y="622" fill="#a78bfa" font-size="13" font-weight="600" letter-spacing="1">③ FUSION  融合层</text>
+    <text x="368" y="652" fill="#c3cbd9" font-size="13.5">AI 情感 主导音乐气质　·　颜色数值 提供音色 / 音区 / 配器</text>
+    <text x="368" y="678" fill="#7a8090" font-size="11.5">AI 判断优先；数值与情感冲突时以语义为准</text>
+  </g>
+
+  <path d="M 700 702 L 700 736" stroke="#c9a84c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- ══════════ ④ 二次转译 ══════════ -->
+  <g>
+    <rect x="340" y="736" width="720" height="118" rx="8" fill="#141118" stroke="#c9a84c" stroke-opacity="0.5"/>
+    <text x="368" y="768" fill="#c9a84c" font-size="13" font-weight="600" letter-spacing="1">④ AI TRANSLATION  音乐 Prompt 二次转译</text>
+    <text x="368" y="796" fill="#c3cbd9" font-size="13.5">Gemini 将「颜色数据 + 情感」转写为专业音乐描述</text>
+    <text x="368" y="820" fill="#7a8090" font-size="11.5">Presto agitato · cluster chords · sul ponticello · subito forte</text>
+    <text x="368" y="842" fill="#967c34" font-size="11.5">⚑ 附带时代风格硬约束（按年代 / 流派限定曲风）</text>
+  </g>
+
+  <path d="M 700 854 L 700 888" stroke="#c9a84c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- ══════════ ⑤ 音乐生成 ══════════ -->
+  <g>
+    <rect x="340" y="888" width="720" height="104" rx="8" fill="#101320" stroke="#5a6070" stroke-opacity="0.6"/>
+    <text x="368" y="920" fill="#dfe3ee" font-size="13" font-weight="600" letter-spacing="1">⑤ MUSIC GENERATION  音乐生成（Suno API）</text>
+    <text x="368" y="948" fill="#c3cbd9" font-size="13">异步任务 + 轮询　·　60 秒时长　·　一次产出 2 个版本</text>
+    <text x="368" y="972" fill="#7fb3d5" font-size="11.5">🔒 三重保护：开关 / 二次确认 / 每日上限　·　API Key 仅存后端</text>
+  </g>
+
+  <path d="M 700 992 L 700 1022" stroke="#c9a84c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- ══════════ ⑥ 前端 ══════════ -->
+  <g>
+    <rect x="340" y="1022" width="720" height="86" rx="8" fill="#0f1a18" stroke="#4a9c7a" stroke-opacity="0.5"/>
+    <text x="368" y="1054" fill="#4a9c7a" font-size="13" font-weight="600" letter-spacing="1">⑥ INTERFACE  React 前端</text>
+    <text x="368" y="1082" fill="#c3cbd9" font-size="12.5">三幕式叙事 · 背景跟随主色 · 两阶段真实进度 · 多版本切换 · 优雅降级</text>
+  </g>
+
+  <!-- ══════════ 右侧：核心论据 ══════════ -->
+  <g>
+    <rect x="60" y="590" width="252" height="518" rx="8" fill="#1a0f12" stroke="#c9556e" stroke-opacity="0.45"/>
+    <text x="88" y="622" fill="#c9556e" font-size="12.5" font-weight="600" letter-spacing="1">为什么必须双通道？</text>
+
+    <rect x="88" y="640" width="196" height="1" fill="#c9556e" fill-opacity="0.3"/>
+
+    <text x="88" y="670" fill="#dfe3ee" font-size="12" font-weight="600">案例：赵无极《20.03.60》</text>
+
+    <text x="88" y="700" fill="#7fb3d5" font-size="11" letter-spacing="0.8">通道 A（公式）</text>
+    <text x="88" y="722" fill="#e6ebf4" font-size="19" font-weight="600">RGI = 0.0</text>
+    <text x="88" y="744" fill="#8f97a6" font-size="11.5">判定：完全平静</text>
+
+    <text x="88" y="778" fill="#c9a84c" font-size="11" letter-spacing="0.8">通道 B（AI）</text>
+    <text x="88" y="800" fill="#e6ebf4" font-size="19" font-weight="600">张力 0.85</text>
+    <text x="88" y="822" fill="#8f97a6" font-size="11.5">判定：狂暴冲撞</text>
+
+    <rect x="88" y="844" width="196" height="1" fill="#c9556e" fill-opacity="0.3"/>
+
+    <text x="88" y="872" fill="#d98c8c" font-size="11.5" font-weight="600">真相：画面是</text>
+    <text x="88" y="894" fill="#d98c8c" font-size="11.5" font-weight="600">朱红与漆黑的剧烈对撞</text>
+
+    <text x="88" y="928" fill="#6b7280" font-size="10.5" leading="1.7">RGI 只测量「红–绿」这一对</text>
+    <text x="88" y="946" fill="#6b7280" font-size="10.5">该画面几乎不含绿色</text>
+    <text x="88" y="964" fill="#6b7280" font-size="10.5">（仅 3 个绿像素）</text>
+    <text x="88" y="990" fill="#6b7280" font-size="10.5">→ 所以 RGI 恒等于 0</text>
+
+    <text x="88" y="1022" fill="#c9a84c" font-size="10.5" font-weight="600">结论：纯算法看不见</text>
+    <text x="88" y="1040" fill="#c9a84c" font-size="10.5" font-weight="600">红–黑对比的张力</text>
+  </g>
+
+  <!-- ══════════ 右侧：关键指标 ══════════ -->
+  <g>
+    <rect x="1108" y="590" width="232" height="518" rx="8" fill="#0f1620" stroke="#5a6070" stroke-opacity="0.45"/>
+    <text x="1136" y="622" fill="#9ec5de" font-size="12.5" font-weight="600" letter-spacing="1">系统指标</text>
+    <rect x="1136" y="640" width="176" height="1" fill="#5a6070" fill-opacity="0.4"/>
+
+    <g font-size="11.5">
+      <text x="1136" y="674" fill="#6b7280">画作规模</text>
+      <text x="1312" y="674" text-anchor="end" fill="#dfe3ee" font-size="17" font-weight="600">10</text>
+
+      <text x="1136" y="714" fill="#6b7280">颜色分析耗时</text>
+      <text x="1312" y="714" text-anchor="end" fill="#7fb3d5" font-size="17" font-weight="600">0.36s</text>
+
+      <text x="1136" y="754" fill="#6b7280">AI 分析耗时</text>
+      <text x="1312" y="754" text-anchor="end" fill="#c9a84c" font-size="17" font-weight="600">≈20s</text>
+
+      <text x="1136" y="794" fill="#6b7280">音乐时长</text>
+      <text x="1312" y="794" text-anchor="end" fill="#dfe3ee" font-size="17" font-weight="600">60s</text>
+
+      <text x="1136" y="834" fill="#6b7280">单次产出版本</text>
+      <text x="1312" y="834" text-anchor="end" fill="#dfe3ee" font-size="17" font-weight="600">2</text>
+    </g>
+
+    <rect x="1136" y="862" width="176" height="1" fill="#5a6070" fill-opacity="0.4"/>
+
+    <text x="1136" y="892" fill="#4a9c7a" font-size="12" font-weight="600">成本设计</text>
+    <g fill="#7a8090" font-size="10.5">
+      <text x="1136" y="920">· 预置画作读缓存 → 零消耗</text>
+      <text x="1136" y="940">· 双阶段拆分 → 快慢分离</text>
+      <text x="1136" y="960">· AI 失败 → 规则模型兜底</text>
+      <text x="1136" y="980">· 每日上限 + 二次确认</text>
+    </g>
+
+    <rect x="1136" y="1002" width="176" height="1" fill="#5a6070" fill-opacity="0.4"/>
+    <text x="1136" y="1032" fill="#6b7280" font-size="10.5">技术栈</text>
+    <text x="1136" y="1054" fill="#8f97a6" font-size="10.5">Python · Flask · React</text>
+    <text x="1136" y="1072" fill="#8f97a6" font-size="10.5">Gemini Vision · Suno API</text>
+  </g>
+
+  <!-- ══════════ 底部 ══════════ -->
+  <line x1="60" y1="1140" x2="1340" y2="1140" stroke="#c9a84c" stroke-opacity="0.18"/>
+  <text x="60" y="1166" fill="#5a6070" font-size="11" letter-spacing="0.8">客观测量提供可复现的数值　·　AI 提供真正的情感理解　·　二者在融合层汇合成音乐</text>
+  <text x="1340" y="1166" text-anchor="end" fill="#5a6070" font-size="11">Colour → Emotion → Music</text>
+</svg>

@@ -1,0 +1,62 @@
+{
+  "20_03_60_gemini_prompt_1.mp3": {
+    "rms_dbfs": -18.24,
+    "peak_dbfs": -2.0,
+    "spectral_centroid_hz": 4380,
+    "duration_s": 185.99
+  },
+  "20_03_60_gemini_prompt_2.mp3": {
+    "rms_dbfs": -18.59,
+    "peak_dbfs": -2.02,
+    "spectral_centroid_hz": 510,
+    "duration_s": 178.09
+  },
+  "georgia_o_keeffe_music_pink_and_blue_no_2_1.mp3": {
+    "rms_dbfs": -23.78,
+    "peak_dbfs": -4.53,
+    "spectral_centroid_hz": 1317,
+    "duration_s": 240.02
+  },
+  "georgia_o_keeffe_music_pink_and_blue_no_2_2.mp3": {
+    "rms_dbfs": -24.45,
+    "peak_dbfs": -6.21,
+    "spectral_centroid_hz": 1106,
+    "duration_s": 240.02
+  },
+  "la_desserte_rouge_the_dessert_harmony_in_1.mp3": {
+    "rms_dbfs": -19.17,
+    "peak_dbfs": -1.09,
+    "spectral_centroid_hz": 1293,
+    "duration_s": 240.02
+  },
+  "la_desserte_rouge_the_dessert_harmony_in_2.mp3": {
+    "rms_dbfs": -22.77,
+    "peak_dbfs": -4.81,
+    "spectral_centroid_hz": 984,
+    "duration_s": 157.27
+  },
+  "manao_tupapau_spirit_of_the_dead_watchin_1.mp3": {
+    "rms_dbfs": -17.71,
+    "peak_dbfs": -1.0,
+    "spectral_centroid_hz": 2396,
+    "duration_s": 240.02
+  },
+  "manao_tupapau_spirit_of_the_dead_watchin_2.mp3": {
+    "rms_dbfs": -16.15,
+    "peak_dbfs": -2.16,
+    "spectral_centroid_hz": 709,
+    "duration_s": 240.02
+  },
+  "zao_wou_ki_20_03_60_rule_v2_1.mp3": {
+    "rms_dbfs": -15.63,
+    "peak_dbfs": -1.17,
+    "spectral_centroid_hz": 3216,
+    "duration_s": 131.63
+  },
+  "zao_wou_ki_20_03_60_rule_v2_2.mp3": {
+    "rms_dbfs": -13.42,
+    "peak_dbfs": -0.19,
+    "spectral_centroid_hz": 1744,
+    "duration_s": 133.62
+  }
+}

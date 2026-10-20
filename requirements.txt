@@ -1,0 +1,16 @@
+# 后端与前端
+Flask>=3.0.0
+requests>=2.31.0
+numpy>=1.26,<2.3
+Pillow>=10.0.0
+
+# MIDI 文件写出（基础声音层）
+mido>=1.3.0
+
+# OpenCV 显著性检测:
+#   必须用 contrib 版 —— saliency 模块不在标准 opencv-python 里；
+#   OpenCV 5.x 已移除 saliency 模块，故锁 4.x；
+#   headless = 不需要 GUI 库，适合服务器/无显示器环境
+opencv-contrib-python-headless>=4.10,<5
+
+# 注意: scikit-image 已从依赖中移除 —— 全项目零引用，属历史遗留
