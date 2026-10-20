@@ -1,0 +1,61 @@
+# Secrets and private configuration
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+*service-account*.json
+secrets/
+.secrets/
+config.local.*
+*.local
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+.npm/
+.pnpm-store/
+*.tsbuildinfo
+
+# Runtime data; only the three reviewed demo fixtures are versioned
+outputs/*
+!outputs/prompts.json
+!outputs/music_prompts.json
+!outputs/audio_measured.json
+ai_emotion_cache.json
+*.log
+*.bak
+*.tmp
+*.zip
+*.tar
+*.tar.gz
+
+# Local tools and operating-system files
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/
+.figma/
+.workbuddy/
+.mise.toml
+AGENTS.md
+CLAUDE.md
